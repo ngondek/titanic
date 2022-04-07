@@ -15,7 +15,7 @@ base_data = pd.read_csv("DSP_1.csv")
 
 pclass_d = {0:"Pierwsza",1:"Druga", 2:"Trzecia"}
 embarked_d = {0:"Cherbourg", 1:"Queenstown", 2:"Southampton"}
-sex_d = {0:"Male", 1:"Female"}
+sex_d = {0:"Female", 1:"Male"}
 # o ile wcześniej kodowaliśmy nasze zmienne, to teraz wprowadzamy etykiety z ich nazewnictwem
 
 def main():
